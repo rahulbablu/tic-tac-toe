@@ -1,5 +1,5 @@
 td {
-    border: 2px solid #333;
+    border: 2px solid whitesmoke;
     height: 100px;
     width: 100px;
     text-align: center;
@@ -7,16 +7,18 @@ td {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 70px;
     cursor: pointer;
+    color: whitesmoke;
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+}
 table{
     border-collapse: collapse;
-    /* position: absolute; */
-    /* left: 50%; */
-    /* margin-left: -155px; */
-    /* top: 80px; */
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 table tr:first-child td{
@@ -36,17 +38,22 @@ table tr td:last-child{
 
 .endgame{
     display: none;
-    width: 200px;
-    height: 80px;
-    top: 23%;
-    position: absolute;
-    background-color: rgba(205,133,63, 0.8);
-    left: 50%;
-    margin-left: -100px;
-    text-align: center;
-    vertical-align: middle;
-    padding: 50px 0;
     border-radius: 5px;
-    color: white;
+    color: whitesmoke;
     font-size: 2em;
+    margin-top: 35px;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+button{
+    border: none;
+    background-color: whitesmoke;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 40px;
 }
